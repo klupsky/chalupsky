@@ -13,13 +13,13 @@ export default function Home() {
   };
 
   return (
-    <main className="bg-black p-6 flex flex-col justify-between text-white tracking-wider leading-relaxed font-neue_montreal h-[100dvh] md:h-[100vh]">
+    <main className="bg-black p-6 flex flex-col justify-between text-white tracking-wider leading-relaxed font-neue_montreal h-[100dvh] lg:h-[100vh]">
       <div onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
         <div className="flex text-2xl">
           k
           <span
             className={`mr-4 transition ease-in-out duration-300 ${
-              hover ? 'text-white' : 'text-black'
+              hover ? 'lg:text-white' : 'lg:text-black'
             }`}
           >
             atharina
@@ -27,7 +27,7 @@ export default function Home() {
           c
           <span
             className={`mr-4 transition ease-in-out duration-300 ${
-              hover ? 'text-white' : 'text-black'
+              hover ? 'lg:text-white' : 'lg:text-black'
             }`}
           >
             halupsky
