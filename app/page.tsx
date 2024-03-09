@@ -33,7 +33,7 @@ export default function Home() {
             halupsky
           </span>
         </div>
-        <div className="text-sm mt-5 text-white max-w-[300px]">
+        <div className="text-2xl mt-5 text-white max-w-[400px]">
           <p>
             i am a graphic designer, illustrator and web developer from vienna.
           </p>
